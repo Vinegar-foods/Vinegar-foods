@@ -1,0 +1,185 @@
+html,
+body {
+    height: 100%;
+    font-family: 'Readex Pro', sans-serif;
+}
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: #2e2a25;
+    box-sizing: border-box;
+
+}
+/*Top Begin*/
+.top {
+    width: 100%;
+    height: 105px;
+    display: flex;
+    /*background-color: #9d8b74;*/
+}
+
+/* Logo*/
+.top div {
+    flex: 1;
+}
+.top-logo {
+    margin-left: 30px;
+}
+.top-logo img {
+    width: 180px;
+    height: 130px;
+}
+
+/*Nav*/
+.top-nav {
+    margin-right: -2px;
+    margin-left: -20px;
+    margin-top: 20px;
+}
+.nav-link {
+    display: flex;
+}
+.nav-item {
+    list-style: none;
+    width: 80px;
+    height: 30px;
+    padding: 10px 25px;
+    margin-left: 1.2px;
+    margin-right: 1.2px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 10px;
+}
+.nav-item a{
+    color: white;
+    text-decoration: none;
+}
+.nav-item:hover{
+    background-color: #f5e8c2;
+    border-bottom: #aa680a solid 4px;
+}
+.nav-item:hover > a{
+    background-color: #f5e8c2;
+    color: black;
+    font-weight: bold;
+}
+.nav-item i {
+    color: white;
+    font-size: 18px;
+}
+.active a{
+    color: black;
+}
+.active {
+    background-color: #f5e8c2;
+    border-bottom: #aa680a solid 4px;
+    font-weight: bold;
+}
+/*More*/
+.nav-item .more-list {
+    background-color: #f5e8c2;
+    text-align: left;
+    width: 180px;
+    height: 162px;
+    display: none;
+    position: relative;
+    top: 20px;
+    left: -25px;
+    z-index: 2;
+    border-radius: 10px;
+}
+.more-list-item {
+    list-style: none;
+    line-height: 3;
+    margin-left: -20px;
+    width: 220px;
+    position: relative;
+    left: -20px;
+}
+.active-bottom {
+    border-bottom: #aaaaaa solid 1px;
+}
+.more-list-item  a{
+    color: black;
+    text-decoration: none;
+    position: relative;
+    left: 20px;
+}
+.more-list-item:hover {
+    background-color: #c4c2be;
+    border-radius: 10px;
+}
+.nav-link .more:hover .more-list {
+    display: block;
+}
+
+/*User*/
+.top-user {
+    display: flex;
+    position: relative;
+    left: 40px;
+    top: 20px;
+}
+.top-user img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: #b09032 solid 5px;
+}
+.top-user p {
+    color: white;
+    font-size: 18px;
+    margin-left: 15px;
+}
+.user-list {
+    background-color: white;
+    width: 180px;
+    height: 276px;
+    position: absolute;
+    top: 77px;
+    left: 13px;
+    z-index: 3;
+    display: none;
+}
+.user-list ul {
+    position: relative;
+    top: -15px;
+    left: -40px;
+}
+.user-list-item {
+    list-style: none;
+    border-bottom: #aaaaaa solid 1px;
+    font-size: 18px;
+    line-height: 3;
+    width: 180px;
+}
+.user-list-item a {
+    text-decoration: none;
+    color: black;
+    padding-left: 20px;
+}
+.user-list-item i {
+    padding-left: 20px;
+}
+.triangle {
+    font-size: 60px;
+    color: white;
+    position: relative;
+    top: 32px;
+    left: -140px;
+    z-index: 2;
+    display: none;
+}
+.top-user:hover .triangle {
+    display: block;
+}
+.top-user:hover .user-list {
+    display: block;
+}
+.user-list .user-list-item:hover {
+    background-color: #d9d7d5;
+}
+/*Top End*/
+
+
