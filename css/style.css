@@ -7,16 +7,16 @@ body {
     width: 100%;
     height: 100%;
     margin: 0;
-    background-color: #2e2a25;
     box-sizing: border-box;
-
+    background-image: linear-gradient(90deg, #302c27, #17140f);
+    position: relative;
 }
 /*Top Begin*/
 .top {
     width: 100%;
     height: 105px;
     display: flex;
-    /*background-color: #9d8b74;*/
+    position: absolute;
 }
 
 /* Logo*/
@@ -41,10 +41,11 @@ body {
     display: flex;
 }
 .nav-item {
+    text-transform: uppercase;
     list-style: none;
-    width: 80px;
+    width: 100px;
     height: 30px;
-    padding: 10px 25px;
+    padding: 10px 20px;
     margin-left: 1.2px;
     margin-right: 1.2px;
     font-size: 18px;
@@ -68,6 +69,9 @@ body {
     color: white;
     font-size: 18px;
 }
+.nav-item:hover i {
+    color: black;
+}
 .active a{
     color: black;
 }
@@ -85,7 +89,7 @@ body {
     display: none;
     position: relative;
     top: 20px;
-    left: -25px;
+    left: -20px;
     z-index: 2;
     border-radius: 10px;
 }
@@ -102,12 +106,14 @@ body {
 }
 .more-list-item  a{
     color: black;
+    font-weight: 500;
     text-decoration: none;
+    text-transform: none;
     position: relative;
     left: 20px;
 }
 .more-list-item:hover {
-    background-color: #c4c2be;
+    background-color: #d9d7d5;
     border-radius: 10px;
 }
 .nav-link .more:hover .more-list {
@@ -183,3 +189,70 @@ body {
 /*Top End*/
 
 
+/*Welcome Begin*/
+.welcome {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(0deg, rgba(28,26,24,0.7), rgba(28,26,24,0.7))
+                     ,url("https://znews-photo.zadn.vn/w660/Uploaded/tmuitg/2016_10_13/12.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+.welcome-text-small {
+    font-size: 25px;
+    color: white;
+}
+.welcome-title {
+    font-size: 70px;
+    color: white;
+}
+.welcome-comment {
+    font-size: 20px;
+    font-weight: 100;
+    color: #C2BFBFFF;
+}
+.button-show {
+    background-color: #dfae67;
+    margin-top: 20px;
+    font-size: 25px;
+    padding: 10px 20px;
+    border: whitesmoke solid 2px;
+    border-radius: 10px;
+}
+.button-show a {
+    text-decoration: none;
+    color: black;
+}
+.button-show i {
+    padding-left: 10px;
+}
+.button-show:hover {
+    background-color: #eccda2;
+}
+/*Welcome End*/
+
+
+/*Logo Cooperate Begin*/
+.logo-cooperate {
+    width: 100%;
+    height: 160px;
+    position: relative;
+}
+.logo-cooperate div {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.logo-cooperate-item {
+    font-size: 100px;
+    color: #aaaaaa;
+}
+/*Logo Cooperate End*/
+
+
+/**/
+/**/
