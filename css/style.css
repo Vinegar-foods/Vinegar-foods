@@ -239,20 +239,95 @@ body {
 /*Logo Cooperate Begin*/
 .logo-cooperate {
     width: 100%;
-    height: 160px;
-    position: relative;
+    height: 140px;
+    background-color: #1d1710;
 }
 .logo-cooperate div {
     display: flex;
     justify-content: space-around;
-    margin-top: 20px;
 }
 .logo-cooperate-item {
-    font-size: 100px;
+    margin-top: 30px;
+    font-size: 80px;
     color: #aaaaaa;
 }
 /*Logo Cooperate End*/
 
 
-/**/
-/**/
+/*Specialities Begin*/
+#specialities {
+    width: 100%;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.spe-title h2 {
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+.i-title {
+    font-family: 'Caveat', cursive;
+    color: #dfae67;
+    font-size: 25px;
+}
+.spe-card {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.spe-card-item {
+    width: 300px;
+    height: 330px;
+}
+.spe-card-item .spe-icon {
+    width: 70px;
+    height: 70px;
+    background-color: #37332d;
+    border-radius: 50px;
+    margin: 50px auto auto auto;
+}
+.spe-icon img {
+    margin-top: 10px;
+    width: 45px;
+    height: 45px;
+}
+.spe-card-item h3 {
+    color: white;
+    font-size: 22px;
+}
+.spe-card-item p {
+    color: #aaaaaa;
+    margin: 0 30px;
+    line-height: 1.8;
+}
+.spe-card-item:hover {
+    background-image: linear-gradient(0deg, #f7d347, #f9e9aa);
+    border-radius: 5px;
+}
+.spe-card-item:hover p ,.spe-card-item:hover h3{
+    color: black;
+}
+.spe-card-item:hover .spe-icon {
+    background-color: #f3e4ce;
+}
+/*Specialities End*/
+
+
+/*Video Begin*/
+/*.video {*/
+/*    */
+/*}*/
+/*.video-box {*/
+/*    */
+/*}*/
+/*.video-box video {*/
+/*    */
+/*}*/
+/*.video-title-box {*/
+/*   */
+/*}*/
+/*Video End*/
