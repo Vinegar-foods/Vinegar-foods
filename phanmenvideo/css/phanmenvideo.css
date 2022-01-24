@@ -1,0 +1,37 @@
+.video{
+    width: 1840px;
+    height: 920px;
+    background-color: rgb(61, 167, 70);
+}
+
+.video-box{
+    position: absolute;
+    right: 450px;
+    margin-top: 150px;
+    width: 900px;
+    height: 550px;
+    border: 1px solid rgb(224, 215, 215);
+}
+
+.video-box video {
+    width: 900px;
+    height: 550px;
+}
+
+.video-title-box{
+    position: absolute;
+    left: 400px;
+    top: 550px;
+    width: 350px;
+    height: 200px;
+    border: 1px solid rgb(224, 215, 215);
+    background-color: rgb(88, 37, 5);
+}
+
+.i-title{
+    color: rgb(131, 123, 7);
+}
+
+.video-title-box , h2 , p{
+    color: rgb(236, 222, 222);
+}
