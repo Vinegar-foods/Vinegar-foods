@@ -4,3 +4,7 @@ up thanh điều hướng
 up phần welcome + dãy logo
 <br>
 up phần combo special
+<br>
+up video
+<br>
+up slider
