@@ -5,14 +5,13 @@ body {
 }
 body {
     width: 100%;
-    height: 100%;
     margin: 0;
     box-sizing: border-box;
     background-image: linear-gradient(90deg, #302c27, #17140f);
     position: relative;
 }
 /*Top Begin*/
-.top {
+.top-my {
     width: 100%;
     height: 105px;
     display: flex;
@@ -20,9 +19,6 @@ body {
 }
 
 /* Logo*/
-.top div {
-    flex: 1;
-}
 .top-logo {
     margin-left: 30px;
 }
@@ -32,92 +28,94 @@ body {
 }
 
 /*Nav*/
-.top-nav {
-    margin-right: -2px;
-    margin-left: -20px;
-    margin-top: 20px;
+.top-navh {
+    margin-top: 30px;
+    margin-left: 30px;
 }
-.nav-link {
+.navh-link {
     display: flex;
 }
-.nav-item {
-    text-transform: uppercase;
+.navh-item {
     list-style: none;
-    width: 100px;
-    height: 30px;
     padding: 10px 20px;
-    margin-left: 1.2px;
-    margin-right: 1.2px;
-    font-size: 18px;
     text-align: center;
-    border-radius: 10px;
+    padding-bottom: -20px;
+    border-radius: 8px;
+    width: 130px;
+    height: 50px;
+    margin-left: 3px;
 }
-.nav-item a{
-    color: white;
+.navh-item a {
     text-decoration: none;
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
 }
-.nav-item:hover{
+.navh-item:hover{
     background-color: #f5e8c2;
     border-bottom: #aa680a solid 4px;
 }
-.nav-item:hover > a{
+.navh-item:hover > a{
     background-color: #f5e8c2;
     color: black;
     font-weight: bold;
 }
-.nav-item i {
+.navh-item i {
     color: white;
     font-size: 18px;
 }
-.nav-item:hover i {
+.navh-item:hover i {
     color: black;
 }
-.active a{
-    color: black;
-}
-.active {
+.activeh {
     background-color: #f5e8c2;
     border-bottom: #aa680a solid 4px;
     font-weight: bold;
 }
-/*More*/
+.activeh a {
+    color: black;
+}
+
+/*!*More*!*/
 .more-list {
     background-color: #f5e8c2;
     text-align: left;
-    width: 180px;
-    height: 162px;
+    width: 200px;
+    height: 165px;
     display: none;
-    position: relative;
-    top: 20px;
-    left: -20px;
     z-index: 2;
     border-radius: 10px;
     box-shadow: 0 0 10px #888888;
+    position: absolute;
+    right: 246px;
+    top: 80px;
 }
 .more-list-item {
     list-style: none;
     line-height: 3;
     margin-left: -20px;
-    width: 220px;
+    width: 200px;
     position: relative;
-    left: -20px;
-}
-.active-bottom {
-    border-bottom: #aaaaaa solid 1px;
+    left: -12px;
 }
 .more-list-item  a{
     color: black;
     font-weight: 500;
     text-decoration: none;
     text-transform: none;
-    position: relative;
-    left: 20px;
+    margin-left: 20px;
+}
+.more-list-item a:hover {
+    color: black;
+}
+.active-bottom {
+    border-bottom: #aaaaaa solid 1px;
 }
 .more-list-item:hover {
     background-color: #d9d7d5;
     border-radius: 10px;
 }
-.nav-link .more:hover .more-list {
+.navh-link > .more:hover > .more-list {
     display: block;
 }
 
@@ -125,12 +123,12 @@ body {
 .top-user {
     display: flex;
     position: relative;
-    left: 40px;
+    right: -100px;
     top: 20px;
 }
 .top-user img {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     border-radius: 50px;
     border: #b09032 solid 5px;
 }
@@ -138,6 +136,7 @@ body {
     color: white;
     font-size: 18px;
     margin-left: 15px;
+    margin-top: 18px;
 }
 .user-list {
     background-color: white;
@@ -151,9 +150,8 @@ body {
     box-shadow: 0 0 10px #888888;
 }
 .user-list ul {
-    position: relative;
-    top: -15px;
-    left: -40px;
+    position: absolute;
+    left: -32px;
 }
 .user-list-item {
     list-style: none;
@@ -174,7 +172,7 @@ body {
     font-size: 60px;
     color: white;
     position: relative;
-    top: 32px;
+    top: 20px;
     left: -140px;
     z-index: 2;
     display: none;
@@ -207,23 +205,27 @@ body {
 .welcome-text-small {
     font-size: 25px;
     color: white;
+    margin-top: 30px;
 }
 .welcome-title {
     font-size: 70px;
     color: white;
+    margin-top: 30px;
 }
 .welcome-comment {
     font-size: 20px;
     font-weight: 100;
     color: #C2BFBFFF;
+    margin-top: 30px;
 }
 .button-show {
     background-color: #dfae67;
-    margin-top: 20px;
+    font-weight: bold;
     font-size: 25px;
     padding: 10px 20px;
     border: whitesmoke solid 2px;
     border-radius: 10px;
+    margin-top: 40px;
 }
 .button-show a {
     text-decoration: none;
@@ -234,6 +236,9 @@ body {
 }
 .button-show:hover {
     background-color: #eccda2;
+}
+.button-show a:hover {
+    color: black;
 }
 /*Welcome End*/
 
@@ -279,7 +284,7 @@ body {
 .spe-card {
     display: flex;
     justify-content: space-around;
-    margin-top: 20px;
+    margin-top: 40px;
     cursor: pointer;
 }
 .spe-card-item {
@@ -301,10 +306,11 @@ body {
 .spe-card-item h3 {
     color: white;
     font-size: 22px;
+    margin-top: 20px;
 }
 .spe-card-item p {
     color: #aaaaaa;
-    margin: 0 30px;
+    margin: 25px 40px;
     line-height: 1.8;
 }
 .spe-card-item:hover {
@@ -318,82 +324,6 @@ body {
     background-color: #f3e4ce;
 }
 /*Specialities End*/
-
-
-/*Slider Begin*/
-.slider-box {
-    width: 100%;
-    height: 830px;
-    object-fit: cover;
-    margin: 0;
-    background-image: linear-gradient(0deg,rgba(28,26,24,0.8), rgba(28,26,24,0.8))
-                     ,url("../img/wood background.jpg");
-}
-.slider-box h2 {
-    margin: 0;
-    font-size: 50px;
-    color: white;
-    text-align: center;
-    padding-top: 50px;
-    letter-spacing: 5px;
-}
-.slider-item {
-    margin: 50px 20px 0 20px;
-}
-.slider-item img {
-    width: 320px;
-    height: 520px;
-    object-fit: cover;
-    border-radius: 12px;
-}
-.slick-arrow {
-    position: absolute;
-    top: 45%;
-    z-index: 3;
-    border-radius: 50px;
-    width: 70px;
-    height: 70px;
-    outline: none;
-    border: none;
-    font-size: 35px;
-}
-.slick-next {
-    right: 0;
-}
-.slick-prev {
-    left: 0;
-}
-.slick-arrow:hover {
-    background-color: #fad76c;
-    color: white;
-}
-.slick-dots {
-    display: flex !important;
-    justify-content: center;
-    align-content: center;
-    margin-top: 50px;
-}
-.slick-dots li {
-    list-style: none;
-    margin: auto 10px;
-}
-.slick-dots li button {
-    font-size: 0;
-    border-radius: 50px;
-    height: 20px;
-    width: 20px;
-    outline: none;
-    border: none;
-}
-.slick-dots li:hover button {
-    background-color: #f1d88a;
-}
-.slick-active button{
-    background-color: #e3ad0e;
-}
-
-/*Slider End*/
-
 
 /*Video Begin*/
 .video {
@@ -411,6 +341,7 @@ body {
 .video-box video {
     width: 1000px;
     height: auto;
+    border: white solid 5px;
 }
 .video-title-box {
     position: absolute;
@@ -420,6 +351,7 @@ body {
     top: 450px;
     left: 150px;
     border-radius: 5px;
+    border: white 1px solid;
 }
 .video-title-box h2 ,.video-title-box p {
     text-align: center;
