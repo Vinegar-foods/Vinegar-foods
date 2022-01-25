@@ -1,0 +1,305 @@
+html,
+body {
+    height: 100%;
+    font-family: 'Readex Pro', sans-serif;
+}
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    background-image: linear-gradient(90deg, #302c27, #17140f);
+    position: relative;
+}
+/*Top Begin*/
+.top {
+    width: 100%;
+    height: 105px;
+    display: flex;
+    position: absolute;
+}
+
+/* Logo*/
+.top div {
+    flex: 1;
+}
+.top-logo {
+    margin-left: 30px;
+}
+.top-logo img {
+    width: 180px;
+    height: 130px;
+}
+
+/*Nav*/
+.top-nav {
+    margin-right: -2px;
+    margin-left: -20px;
+    margin-top: 20px;
+}
+.nav-link {
+    display: flex;
+}
+.nav-item {
+    text-transform: uppercase;
+    list-style: none;
+    width: 100px;
+    height: 30px;
+    padding: 10px 20px;
+    margin-left: 1.2px;
+    margin-right: 1.2px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 10px;
+}
+.nav-item a{
+    color: white;
+    text-decoration: none;
+}
+.nav-item:hover{
+    background-color: #f5e8c2;
+    border-bottom: #aa680a solid 4px;
+}
+.nav-item:hover > a{
+    background-color: #f5e8c2;
+    color: black;
+    font-weight: bold;
+}
+.nav-item i {
+    color: white;
+    font-size: 18px;
+}
+.nav-item:hover i {
+    color: black;
+}
+.active a{
+    color: black;
+}
+.active {
+    background-color: #f5e8c2;
+    border-bottom: #aa680a solid 4px;
+    font-weight: bold;
+}
+/*More*/
+.nav-item .more-list {
+    background-color: #f5e8c2;
+    text-align: left;
+    width: 180px;
+    height: 162px;
+    display: none;
+    position: relative;
+    top: 20px;
+    left: -20px;
+    z-index: 2;
+    border-radius: 10px;
+}
+.more-list-item {
+    list-style: none;
+    line-height: 3;
+    margin-left: -20px;
+    width: 220px;
+    position: relative;
+    left: -20px;
+}
+.active-bottom {
+    border-bottom: #aaaaaa solid 1px;
+}
+.more-list-item  a{
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: none;
+    position: relative;
+    left: 20px;
+}
+.more-list-item:hover {
+    background-color: #d9d7d5;
+    border-radius: 10px;
+}
+.nav-link .more:hover .more-list {
+    display: block;
+}
+
+/*User*/
+.top-user {
+    display: flex;
+    position: relative;
+    left: 40px;
+    top: 20px;
+}
+.top-user img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: #b09032 solid 5px;
+}
+.top-user p {
+    color: white;
+    font-size: 18px;
+    margin-left: 15px;
+}
+.user-list {
+    background-color: white;
+    width: 180px;
+    height: 276px;
+    position: absolute;
+    top: 77px;
+    left: 13px;
+    z-index: 3;
+    display: none;
+}
+.user-list ul {
+    position: relative;
+    top: -15px;
+    left: -40px;
+}
+.user-list-item {
+    list-style: none;
+    border-bottom: #aaaaaa solid 1px;
+    font-size: 18px;
+    line-height: 3;
+    width: 180px;
+}
+.user-list-item a {
+    text-decoration: none;
+    color: black;
+    padding-left: 20px;
+}
+.user-list-item i {
+    padding-left: 20px;
+}
+.triangle {
+    font-size: 60px;
+    color: white;
+    position: relative;
+    top: 32px;
+    left: -140px;
+    z-index: 2;
+    display: none;
+}
+.top-user:hover .triangle {
+    display: block;
+}
+.top-user:hover .user-list {
+    display: block;
+}
+.user-list .user-list-item:hover {
+    background-color: #d9d7d5;
+}
+/*Top End*/
+
+
+/*Welcome Begin*/
+.welcome {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(0deg, rgba(28,26,24,0.7), rgba(28,26,24,0.7))
+                     ,url("https://znews-photo.zadn.vn/w660/Uploaded/tmuitg/2016_10_13/12.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+.welcome-text-small {
+    font-size: 25px;
+    color: white;
+}
+.welcome-title {
+    font-size: 70px;
+    color: white;
+}
+.welcome-comment {
+    font-size: 20px;
+    font-weight: 100;
+    color: #C2BFBFFF;
+}
+.button-show {
+    background-color: #dfae67;
+    margin-top: 20px;
+    font-size: 25px;
+    padding: 10px 20px;
+    border: whitesmoke solid 2px;
+    border-radius: 10px;
+}
+.button-show a {
+    text-decoration: none;
+    color: black;
+}
+.button-show i {
+    padding-left: 10px;
+}
+.button-show:hover {
+    background-color: #eccda2;
+}
+/*Welcome End*/
+
+
+/*Logo Cooperate Begin*/
+.logo-cooperate {
+    width: 100%;
+    height: 160px;
+    position: relative;
+}
+.logo-cooperate div {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.logo-cooperate-item {
+    font-size: 100px;
+    color: #aaaaaa;
+}
+/*Logo Cooperate End*/
+
+
+/*Special Dishes Begin*/
+.Menu p , .Menu h2{
+   text-align: center;
+    font-size: 30px;
+}
+
+.Menu p{
+    color: white;
+}
+
+.Menu h2{
+    color: white;
+}
+
+.column-item{
+    background-color: rgba(68, 43, 8, 0.53);
+}
+.Photo{
+    margin-top: 36px;
+    display: flex;
+    padding: 12px 0;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+}
+
+.column-item{
+    flex-basis: 10%;
+}
+.foodtoua{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+}
+/*Special Dishes End*/
+
+/*Restaurant Achievenments Begin*/
+.Restaurant{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    color: #beb181;
+    background-image:
+            linear-gradient(0, rgba(0, 0, 0, 0.84), rgba(0, 0, 0, 0.84)),
+            url("../img/istockphoto-1155240408-612x612.jpg");
+    background-size: 100%;
+}
+/*Restaurant Achievenments End*/
+/**/
