@@ -10,14 +10,17 @@ body {
     background-image: linear-gradient(90deg, #302c27, #17140f);
     position: relative;
 }
+
+/*Index begin*/
 /*Top Begin*/
 .top-my {
     width: 100%;
     height: 105px;
     display: flex;
+}
+.top-my-active {
     position: absolute;
 }
-
 /* Logo*/
 .top-logo {
     margin-left: 30px;
@@ -118,7 +121,9 @@ body {
 .navh-link > .more:hover > .more-list {
     display: block;
 }
-
+.active-icon-more {
+    color: black !important;
+}
 /*User*/
 .top-user {
     display: flex;
@@ -607,13 +612,6 @@ body {
 /*Special Dishes End*/
 
 /*Restaurant Achievenments Begin*/
-.Restaurant{
-
-
-    font-size: 25px;
-
-
-}
 .restaurant-achievenments {
     background-image:
             linear-gradient(0, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
@@ -639,3 +637,5 @@ body {
     font-size: 23px;
 }
 /*Restaurant Achievenments End*/
+
+/*Index End*/
