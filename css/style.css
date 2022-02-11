@@ -615,7 +615,7 @@ body {
 /*Index End*/
 
 
-/*About Begin*/
+/*Contact us Begin*/
 /*map*/
 .map {
     position: relative;
@@ -701,4 +701,112 @@ body {
     outline: none;
     border: none;
 }
-/*About End*/
+/*Contact us End*/
+
+
+/*About us Begin*/
+#about-us {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 80px;
+}
+.col-list > div {
+    margin-bottom: 55px;
+}
+.search-title .search-box {
+    position: relative;
+}
+.search-box i {
+    position: absolute;
+    left: 10px;
+    top: 12px;
+}
+.search-box input {
+    width: 280px;
+    height: 40px;
+    padding: 1px 2px 1px 35px;
+}
+.list-title-p {
+    margin-top: 14px;
+}
+.list-title-p p {
+    color: #636363;
+    cursor: pointer;
+}
+.list-title-p p:hover {
+    color: #1c1b1b;
+}
+.list-post-item {
+    display: flex;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.post-item-first {
+    margin-top: 25px;
+}
+.list-post-item div img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+.date-post {
+    margin-left: 16px;
+}
+.date-post h6 {
+    width: 200px;
+    padding-top: 5px;
+}
+.p-span {
+    color: #e7ab3c;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+.p-span span {
+    color: #636363;
+    font-size: 12px;
+    font-weight: 400;
+}
+.col-post {
+    display: flex;
+}
+.col-post-item {
+    padding: 0 15px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.col-post-item img {
+    width: 420px;
+    height: 280px;
+    object-fit: cover;
+}
+.col-post-item h4 {
+    padding-top: 20px;
+    margin-bottom: 16px;
+}
+#loading {
+    width: 100%;
+    padding: 30px 0 ;
+    margin-left: 870px;
+    margin-bottom: 30px;
+}
+#loading i {
+    font-size: 20px;
+    margin-right: 10px;
+}
+#loading a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #e7ab3c;
+}
+.share-box a {
+    margin-right: 20px;
+}
+.share-box h4 {
+    margin-bottom: 20px;
+}
+/*About us End*/
