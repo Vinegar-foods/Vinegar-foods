@@ -1,0 +1,29 @@
+center , h1{
+    text-align: center;
+}
+.center-a {
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+
+.center-b{
+    text-align: left;
+    border-image-width: 100px;
+    top: 100px;
+    bottom: 100px;
+}
+.center-c{
+    text-align: right;
+}
+.center-i {
+    text-align: left;
+    min-width: 800px;
+    max-height: 500px;
+}
+.center-h{
+    text-align: center;
+}
+.center-g{
+    text-align: right;
+}
