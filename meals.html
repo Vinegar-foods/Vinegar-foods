@@ -5,65 +5,573 @@
     <title>Vinegar Food | Meal</title>
     <!--  Css and logo wed  -->
     <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="img/Logo-main.png">
+    <link rel="icon" href="img/logo-main-new.png">
     <!--Font awesome icon-->
     <link rel="stylesheet" href="icon/fontawesome-free-5.15.4-web/css/all.css">
     <!--Google font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;600&display=swap" rel="stylesheet">
     <!--Boostrap Css-->
     <link rel="stylesheet" href="framework/bootstrap-5.1.3-dist/css/bootstrap.css">
 </head>
 <body>
-<!--Top Begin-->
-<div class="top-my top-background-active">
-    <div class="top-logo">
-        <a href="index.html"><img src="img/Logo-main.png" alt="Logo"></a>
-    </div>
-    <div class="top-navh">
-        <ul class="navh-link">
-            <li class="navh-item"><a href="index.html">Home</a></li>
-            <li class="navh-item activeh"><a href="meals.html">Meal</a></li>
-            <li class="navh-item"><a href="gallery.html">Gallery</a></li>
-            <li class="navh-item"><a href="awards.html">Awards</a></li>
-            <li class="navh-item"><a href="catering.html">Catering</a></li>
-            <li class="navh-item"><a href="about-us.html">About us</a></li>
-            <li class="navh-item more"><a href="#">More</a>
-                <i class="fas fa-angle-down"></i>
-                <ul class="more-list">
-                    <li class="more-list-item active-bottom"><a href="feedback.html">Feedback</a></li>
-                    <li class="more-list-item active-bottom"><a href="contact-us.html">Contact us</a></li>
-                    <li class="more-list-item"><a href="recipe-of-the-month.html">Recipe of the month</a></li>
-                </ul>
-            </li>
+<!--HeaderBegin-->
+<div id="header">
+    <div class="header-nav">
+        <div id="header-search">
+            <form action="#">
+                <button><i class="fas fa-search"></i></button>
+                <label for="search-input-header">
+                    <input id="search-input-header" type="search" placeholder="Search here...">
+                </label>
+            </form>
+        </div>
+        <ul class="nav-list">
+            <li class="nav-item"><a href="index.html">Home</a></li>
+            <li class="nav-item header-active"><a href="meals.html">Meal</a></li>
+            <li class="nav-item"><a href="gallery.html">Gallery</a></li>
+            <li class="nav-item"><a href="awards.html">Awards</a></li>
+            <li class="nav-item"><a href="catering.html">Catering</a></li>
         </ul>
     </div>
-    <div class="top-user">
-        <img class="user-item" src="img/user-default.png" alt="User">
-        <p class="user-item">Mr.Adrew</p>
-        <div class="triangle"><i class="fas fa-caret-up "></i></div>
-        <div class="user-list">
-            <ul>
-                <li class="user-list-item"><i class="fas fa-user"></i><a href="#">Account</a></li>
-                <li class="user-list-item"><i class="fas fa-calendar-alt"></i><a href="#">My booking</a></li>
-                <li class="user-list-item"><i class="fas fa-cog"></i><a href="#">Setting</a></li>
-                <li class="user-list-item"><i class="far fa-question-circle"></i><a href="#">Support</a></li>
-                <li class="user-list-item"><i class="fas fa-sign-out-alt"></i><a href="#">Log out</a></li>
-            </ul>
+
+    <div id="header-logo">
+        <img src="img/logo-main-new.png" alt="logo">
+    </div>
+
+    <div class="header-nav">
+        <div id="header-button">
+            <div id="header-button-icon">
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+            <button><a href="reservation.html">Reservations</a></button>
+        </div>
+        <ul class="nav-list">
+            <li class="nav-item"><a href="about-us.html">About us</a></li>
+            <li class="nav-item"><a href="contact-us.html">Contact us</a></li>
+            <li class="nav-item"><a href="recipe-of-the-month.html">Recipes</a></li>
+            <li class="nav-item"><a href="feedback.html">Feedback</a></li>
+            <li class="nav-item"><a href="blog.html">Blog</a></li>
+        </ul>
+    </div>
+</div>
+<!--Header End-->
+
+<!--Meal Begin-->
+<div class="menu-top">
+    <div class="menu-welcome">
+        <div id="menu-welcome-1">
+            <span>Welcome</span>
+            <h2>Special menu with a variety of cuisines!</h2>
+            <button><a href="reservation.html">Reservation</a></button>
+        </div>
+        <div id="menu-welcome-2">
+            <span>Welcome</span>
+            <h4>Welcome to our restaurant website with continental cuisine !</h4>
+            <p>Keep an eye on our website and app for new promotions and offers!</p>
+            <a href="reservation.html">Reservation <i class="fas fa-angle-right"></i></a>
+        </div>
+    </div>
+    <div id="menu-welcome-img">
+        <img src="img/mennu.jpg" alt="menu">
+    </div>
+</div>
+<div id="menu-list">
+    <div id="search-menu">
+        <i class="fas fa-search"></i>
+    </div>
+    <ul id="type-list">
+        <li><a href="#menu-food-box-1">Popular dishes</a></li>
+        <li><a href="#menu-food-box-2">Fresh meals</a></li>
+        <li><a href="#menu-food-box-3">Salads</a></li>
+        <li><a href="#menu-food-box-4">Drink</a></li>
+        <li><a href="#menu-food-box-5">Fish</a></li>
+        <li><a href="#menu-food-box-6">Seafood</a></li>
+        <li><a href="#menu-food-box-7">Shushi</a></li>
+        <li><a href="#menu-food-box-8">Steak</a></li>
+        <li><a href="#menu-food-box-9">Noodles</a></li>
+        <li><a href="#menu-food-box-10">Vegetable meal</a></li>
+    </ul>
+</div>
+<div id="menu-food">
+    <div id="menu-food-box-1" class="menu-food-box ">
+        <div class="menu-food-title">
+            <h3>Popular dishes</h3>
+            <p>Popular dishes, everyone's dishes</p>
+        </div>
+        <div class="menu-food-img">
+            <div class="food-img-box">
+                <img src="img/menu-1.jpg" alt="food">
+                <div>
+                    <h5>Coffee pancakes</h5>
+                    <p>Pancakes are the favorite cake of many people.
+                        Come to our restaurant, you just have to enjoy.</p>
+                    <button>View details</button>
+                </div>
+            </div>
+            <div class="food-img-box">
+                <img src="img/menu-2.jpg" alt="food">
+                <div>
+                    <h5>Family food </h5>
+                    <p>What do you think about simple and flavorful family dishes? Do you want to enjoy?</p>
+                    <button>View details</button>
+                </div>
+            </div>
+            <div class="food-img-box">
+                <img src="img/menu-3.jpg" alt="food">
+                <div>
+                    <h5>Chicken in Korea</h5>
+                    <p>Korean chicken dish will help you remember forever
+                        with an indescribable taste that the eater will not be.</p>
+                    <button>View details</button>
+                </div>
+            </div>
+            <div class="food-img-box">
+                <img src="img/menu-35.jpg" alt="food">
+                <div>
+                    <h5>Rice egg</h5>
+                    <p>You think omelet rice won't be served at our restaurant, no it does. Let your breakfast have more energy!</p>
+                    <button>View details</button>
+                </div>
+            </div>
+        </div>
+        <div class="show-more">
+            <a href="#">Show more <i class="fas fa-angle-double-right"></i></a>
+        </div>
+    </div>
+    <div id="menu-food-box-2" class="menu-food-box">
+        <div class="menu-food-title menu-food-title-active">
+            <h3>Fresh meals</h3>
+            <p>Fresh food made into dishes for you</p>
+        </div>
+        <div class="menu-food-img">
+            <div class="food-img-box">
+                <img src="img/menu-4.jpg" alt="food">
+                <div>
+                    <h5>Fresh fish</h5>
+                    <p>Fresh fish caught and transported to the restaurant is
+                        immediately processed into the perfect taste of the sea</p>
+                    <button>View details</button>
+                </div>
+            </div>
+            <div class="food-img-box">
+                <img src="img/menu-5.jpg" alt="food">
+                <div>
+                    <h5>Fresh vegetable </h5>
+                    <p>Fresh vegetables are picked in an organic vegetable growing
+                        area to bring the freshest flavors while still being clean</p>
+                    <button>View details</button>
+                </div>
+            </div>
+            <div class="food-img-box">
+                <img src="img/menu-6.jpg" alt="food">
+                <div>
+                    <h5>Fresh mix</h5>
+                    <p>What do you think about the freshest foods mixed
+                        together to create a perfect and fresh new taste</p>
+                    <button>View details</button>
+                </div>
+            </div>
+            <div class="food-img-box">
+                <img src="img/menu-36.jpg" alt="food">
+                <div>
+                    <h5>Fresh seafood mix</h5>
+                    <p>The perfect combination of vegetables and seafood,
+                        of course they are all fresh and clean, let's try it</p>
+                    <button>View details</button>
+                </div>
+            </div>
+        </div>
+        <div class="show-more">
+            <a href="#">Show more <i class="fas fa-angle-double-right"></i></a>
+        </div>
+    </div>
+    <div id="menu-food-box-3" class="menu-food-box">
+        <div class="menu-food-title menu-food-title-active">
+            <h3>Salads</h3>
+            <p>You are too tired of high-energy foods, so try salads</p>
+        </div>
+        <div class="menu-food-img">
+            <div class="food-img-box">
+                <img src="img/menu-7.jpg" alt="food">
+                <div>
+                    <h5>Salad popular</h5>
+                    <p>Let's start with a common salad found in every family.
+                        It's a nutritious mixed salad that still makes you delicious</p>
+                    <button>View details</button>
+                </div>
+            </div>
+            <div class="food-img-box">
+                <img src="img/menu-8.jpg" alt="food">
+                <div>
+                    <h5>Salad egg</h5>
+                    <p>Egg salad Yes yes it sounds very new eggs combined with
+                        vegetables new flavors will be created it will surprise you</p>
+                    <button>View details</button>
+                </div>
+            </div>
+            <div class="food-img-box">
+                <img src="img/menu-9.jpg" alt="food">
+                <div>
+                    <h5>Salad seafood</h5>
+                    <p>The seafood salad will surprise you with its taste,
+                        accompanied by our exclusive sauce, spicy sauce.</p>
+                    <button>View details</button>
+                </div>
+            </div>
+            <div class="food-img-box">
+                <img src="img/menu-10.jpg" alt="food">
+                <div>
+                    <h5>Salad Fruit</h5>
+                    <p>A combination of fresh vegetables and fruit, a
+                        fruit salad is born from the addition of a nutritious egg cream sauce.</p>
+                    <button>View details</button>
+                </div>
+            </div>
+        </div>
+        <div class="show-more">
+            <a href="#">Show more <i class="fas fa-angle-double-right"></i></a>
+        </div>
+    </div>
+    <div id="menu-food-box-4" class="menu-food-box">
+        <div class="menu-food-title menu-food-title-active">
+            <h3>Drinks</h3>
+            <p>Drinks that help us to arouse emotions</p>
+        </div>
+        <div class="menu-food-img">
+            <div class="food-img-box">
+                <img src="img/menu-37.jpg" alt="food">
+                <div>
+                    <h5>Coctail lemon</h5>
+                    <p>A refreshing drink with a bit of saltiness from salt
+                        and sourness from lemon, plus whitley is perfect</p>
+                    <button>View details</button>
+                </div>
+            </div>
+            <div class="food-img-box">
+                <img src="img/menu-38.jpg" alt="food">
+                <div>
+                    <h5>Polarized oranges</h5>
+                    <p>If you need something light and friendly, then Polarized orange
+                        juice is something you should try with star anise</p>
+                    <button>View details</button>
+                </div>
+            </div>
+            <div class="food-img-box">
+                <img src="img/menu-39.jpg" alt="food">
+                <div>
+                    <h5>Danish Beer</h5>
+                    <p>Denmark has long been famous for their beer.
+                        You want to drink it without going to Denmark, to our restaurant</p>
+                    <button>View details</button>
+                </div>
+            </div>
+            <div class="food-img-box">
+                <img src="img/menu-40.jpg" alt="food">
+                <div>
+                    <h5>Red and white wine</h5>
+                    <p>Wine is not too strange to us. The restaurant serves
+                        you both white and red wines from the 1880s</p>
+                    <button>View details</button>
+                </div>
+            </div>
+        </div>
+        <div class="show-more">
+            <a href="#">Show more <i class="fas fa-angle-double-right"></i></a>
+        </div>
+    </div>
+    <div id="menu-food-box-5" class="menu-food-box">
+        <div class="menu-food-title menu-food-title-active">
+            <h3>Fish</h3>
+            <p>The taste is not in any meat, it's fish</p>
+        </div>
+        <div class="menu-food-img">
+            <div class="food-img-box">
+                <img src="img/menu-15.jpg" alt="food">
+                <div>
+                    <h5>Mixed red tilapia</h5>
+                    <p>Red snapper fillet created by the chef during a trip to
+                        Phu Quoc island a dish from Southeast Asian cuisine</p>
+                    <button>View details</button>
+                </div>
+            </div>
+            <div class="food-img-box">
+                <img src="img/menu-16.jpg" alt="food">
+                <div>
+                    <h5>Grilled fish with pepper</h5>
+                    <p>Grilled salmon with pepper will be the perfect choice for
+                        dinner for families with young children.</p>
+                    <button>View details</button>
+                </div>
+            </div>
+            <div class="food-img-box">
+                <img src="img/menu-17.jpg" alt="food">
+                <div>
+                    <h5>Fish soup</h5>
+                    <p>Fish soup is very suitable for this cold winter.
+                        Sitting in a restaurant while eating hot soup while soaking in the snow</p>
+                    <button>View details</button>
+                </div>
+            </div>
+            <div class="food-img-box">
+                <img src="img/menu-18.jpg" alt="food">
+                <div>
+                    <h5>Fire grilled fish</h5>
+                    <p>Diem Son flamingo, the name is unique and its taste or aroma
+                        is the same, you will be hard to resist when it is served.</p>
+                    <button>View details</button>
+                </div>
+            </div>
+        </div>
+        <div class="show-more">
+            <a href="#">Show more <i class="fas fa-angle-double-right"></i></a>
+        </div>
+    </div>
+    <div id="menu-food-box-6" class="menu-food-box">
+        <div class="menu-food-title menu-food-title-active">
+            <h3>Seafood</h3>
+            <p>The taste of the sea, the taste of seafood</p>
+        </div>
+        <div class="menu-food-img">
+            <div class="food-img-box">
+                <img src="img/menu-19.jpg" alt="food">
+                <div>
+                    <h5>Mixed fried squid</h5>
+                    <p>Stir-fried squid is not new anymore, but our
+                        restaurant will turn it into a new flavor. Let's try it!</p>
+                    <button>View details</button>
+                </div>
+            </div>
+            <div class="food-img-box">
+                <img src="img/menu-20.jpg" alt="food">
+                <div>
+                    <h5>Lobster with cheese sauce</h5>
+                    <p>King of shrimps. You guessed it right, it's lobster with
+                        sweet meat that is softer and tastier than other types of shrimp</p>
+                    <button>View details</button>
+                </div>
+            </div>
+            <div class="food-img-box">
+                <img src="img/menu-21.jpg" alt="food">
+                <div>
+                    <h5>Grilled oysters with onion</h5>
+                    <p>Oysters with onion fat chang. This food will
+                        increase the strength of men, tonic kidney and yang</p>
+                    <button>View details</button>
+                </div>
+            </div>
+            <div class="food-img-box">
+                <img src="img/menu-22.jpg" alt="food">
+                <div>
+                    <h5>American style crab stick</h5>
+                    <p>Crab stick from king crab meat is full of flavor
+                        quality enhanced by our chefs cooking and seasoning</p>
+                    <button>View details</button>
+                </div>
+            </div>
+        </div>
+        <div class="show-more">
+            <a href="#">Show more <i class="fas fa-angle-double-right"></i></a>
+        </div>
+    </div>
+    <div id="menu-food-box-7" class="menu-food-box">
+        <div class="menu-food-title menu-food-title-active">
+            <h3>Shushi</h3>
+            <p>Referring to Japanese cuisine, people immediately think of shushi</p>
+        </div>
+        <div class="menu-food-img">
+            <div class="food-img-box">
+                <img src="img/menu-23.jpg" alt="food">
+                <div>
+                    <h5>Shrimp sushi</h5>
+                    <p>Shrimp sushi is a delicious dish made from fresh,
+                        pre-cooked shrimp with seaweed and rice</p>
+                    <button>View details</button>
+                </div>
+            </div>
+            <div class="food-img-box">
+                <img src="img/menu-24.jpg" alt="food">
+                <div>
+                    <h5>Salmon sushi</h5>
+                    <p>Salmon sushi is so familiar that it is popular
+                        not only in Japan but also in many parts of the world</p>
+                    <button>View details</button>
+                </div>
+            </div>
+            <div class="food-img-box">
+                <img src="img/menu-25.jpg" alt="food">
+                <div>
+                    <h5>Caviar sushi</h5>
+                    <p>Salmon is not only used for meat to make sushi,
+                        but people also use its eggs to make sushi, the taste is even better</p>
+                    <button>View details</button>
+                </div>
+            </div>
+            <div class="food-img-box">
+                <img src="img/menu-26.jpg" alt="food">
+                <div>
+                    <h5>Variety of sushi</h5>
+                    <p>If you want to try all kinds of sushi,
+                        why not order mixed sushi? It has all kinds of sushi (fish, shrimp, squid,...)</p>
+                    <button>View details</button>
+                </div>
+            </div>
+        </div>
+        <div class="show-more">
+            <a href="#">Show more <i class="fas fa-angle-double-right"></i></a>
+        </div>
+    </div>
+    <div id="menu-food-box-8" class="menu-food-box">
+        <div class="menu-food-title menu-food-title-active">
+            <h3>Steak</h3>
+            <p>A foodie like you surely knows about steak</p>
+        </div>
+        <div class="menu-food-img">
+            <div class="food-img-box">
+                <img src="img/menu-27.jpg" alt="food">
+                <div>
+                    <h5>Beef Steak</h5>
+                    <p>Rare beef steak to your liking , accompanying sauce
+                        is fried rosemary with rich butter and wonderful aroma</p>
+                    <button>View details</button>
+                </div>
+            </div>
+            <div class="food-img-box">
+                <img src="img/menu-28.jpg" alt="food">
+                <div>
+                    <h5>Pork Steak</h5>
+                    <p>The pork steak is delicious though. Come to our restaurant
+                        and try it now, you won't be disappointed</p>
+                    <button>View details</button>
+                </div>
+            </div>
+            <div class="food-img-box">
+                <img src="img/menu-29.jpg" alt="food">
+                <div>
+                    <h5>Steak</h5>
+                    <p>Copyrighted style steak is only available at the
+                        restaurant, once you taste it, you will not be able to forget this taste</p>
+                    <button>View details</button>
+                </div>
+            </div>
+            <div class="food-img-box">
+                <img src="img/menu-30.jpg" alt="food">
+                <div>
+                    <h5>Lamb Steak</h5>
+                    <p>Lamb thigh steak has a great taste from the succulent fibers that make many
+                        people irresistible and want to eat.</p>
+                    <button>View details</button>
+                </div>
+            </div>
+        </div>
+        <div class="show-more">
+            <a href="#">Show more <i class="fas fa-angle-double-right"></i></a>
+        </div>
+    </div>
+    <div id="menu-food-box-9" class="menu-food-box">
+        <div class="menu-food-title menu-food-title-active">
+            <h3>Noodles</h3>
+            <p>Noodles are a popular food and occupy a large part of the culinary map</p>
+        </div>
+        <div class="menu-food-img">
+            <div class="food-img-box">
+                <img src="img/menu-31.jpg" alt="food">
+                <div>
+                    <h5>Egg noodles</h5>
+                    <p>Egg noodles are noodles that can be found anywhere,
+                        but at our restaurant it has brought to a new level of flavor.</p>
+                    <button>View details</button>
+                </div>
+            </div>
+            <div class="food-img-box">
+                <img src="img/menu-32.jpg" alt="food">
+                <div>
+                    <h5>Pasta</h5>
+                    <p>When it comes to noodles, people often think of
+                        spaghetti with tomato beef sauce and soft noodles</p>
+                    <button>View details</button>
+                </div>
+            </div>
+            <div class="food-img-box">
+                <img src="img/menu-33.jpg" alt="food">
+                <div>
+                    <h5>Vietnamese noodle soup</h5>
+                    <p>A specialty of Vietnam is noodle soup with
+                        divine broth that is stewed from pork bones</p>
+                    <button>View details</button>
+                </div>
+            </div>
+            <div class="food-img-box">
+                <img src="img/menu-34.jpg" alt="food">
+                <div>
+                    <h5>Chicken Noodles</h5>
+                    <p>The good herbs in traditional medicine are put in the stew with chicken
+                        and some other spices to create a chicken </p>
+                    <button>View details</button>
+                </div>
+            </div>
+        </div>
+        <div class="show-more">
+            <a href="#">Show more <i class="fas fa-angle-double-right"></i></a>
+        </div>
+    </div>
+    <div id="menu-food-box-10" class="menu-food-box">
+        <div class="menu-food-title menu-food-title-active">
+            <h3>Vegetable meal</h3>
+            <p>These are simple dishes when you want to taste the taste of home while away from home</p>
+        </div>
+        <div class="menu-food-img">
+            <div class="food-img-box">
+                <img src="img/menu-11.jpg" alt="food">
+                <div>
+                    <h5>Dotted rice paper</h5>
+                    <p>Pancakes dipped in custard cream are the perfect choice for
+                        reminiscing the taste of family with children far from home.</p>
+                    <button>View details</button>
+                </div>
+            </div>
+            <div class="food-img-box">
+                <img src="img/menu-12.jpg" alt="food">
+                <div>
+                    <h5>Braised eggs</h5>
+                    <p>Braised pork with eggs will be the best
+                        dish to bring rice. A mother's dish filled with memories.</p>
+                    <button>View details</button>
+                </div>
+            </div>
+            <div class="food-img-box">
+                <img src="img/menu-13.jpg" alt="food">
+                <div>
+                    <h5>Pork belly with pepper</h5>
+                    <p>Pepper marinated pork with fresh boiled
+                        vegetables has a strong salty fish sauce flavor when dipped in.</p>
+                    <button>View details</button>
+                </div>
+            </div>
+            <div class="food-img-box">
+                <img src="img/menu-14.jpg" alt="food">
+                <div>
+                    <h5>Japanese style eel roll</h5>
+                    <p>Sea eel dish is selected from the best
+                        Japanese eel and cooked with special Jaki sauce.</p>
+                    <button>View details</button>
+                </div>
+            </div>
+        </div>
+        <div class="show-more show-more-end">
+            <a href="#">Show more <i class="fas fa-angle-double-right"></i></a>
         </div>
     </div>
 </div>
-<!--Top End-->
-
-
-<!--Code ở đây-->
-
+<!--Meal End-->
 
 <!-- Footer begin -->
 <div class="footer">
     <div class="footer-row-1">
-        <img src="img/Logo-main.png" alt="logo"/>
+        <img src="img/logo-main-new.png" alt="logo"/>
         <div class="connect">
             <h2 class="footer-title">Connect with us</h2>
             <div class="connect-icon">
@@ -106,6 +614,14 @@
                 <p>8A, Ton That Thuyet, My Dinh, Tu Liem, Ha Noi.</p>
                 <p>590 August Revolution, Ward 11, District 3, Ho Chi Minh</p>
             </div>
+        </div>
+        <div id="sub-email">
+            <form action="#">
+                <label for="input-footer">
+                    <input id="input-footer" type="email" placeholder="Your Email...">
+                </label>
+                <button>Subscribe</button>
+            </form>
         </div>
     </div>
 </div>
