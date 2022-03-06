@@ -1920,6 +1920,7 @@ div.stars {
     padding-bottom: 10px;
     position: relative;
     left: 350px;
+    margin-top: 150px;
 }
 
 .phandau {
@@ -2239,6 +2240,7 @@ div.stars {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin-bottom: 50px;
 }
 
 .noidung-img22 {
