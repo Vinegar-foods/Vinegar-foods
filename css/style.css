@@ -1819,7 +1819,11 @@ div.stars {
 /*awards begin*/
 .nhanxet{
     display: flex;
+    justify-content: center;
     padding-top: 100px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 100px;
 }
 
 .nhanxet h2{
@@ -1832,10 +1836,8 @@ div.stars {
 }
 
 .vanban {
-    width: 30%;
+    width: 50%;
     height: 500px;
-    position: relative;
-    left: 350px;
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 30px;
@@ -1855,68 +1857,60 @@ div.stars {
     outline: none;
 }
 
-.img-item1{
-    position: relative;
-    left: 450px;
+.img{
+    margin-left: 80px;
 }
 
 .img-item2{
     position: relative;
-    left: 295px;
-    top: 150px;
+    bottom: 210px;
+    left: 200px;
 }
 
 .nhanxet2 {
     display: flex;
-    padding-top: 200px;
-    padding-bottom: 100px;
+    justify-content: center;
+    margin-left: 150px;
+    margin-right: 300px;
+   margin-top: 30px;
 }
 
 .vanban2 {
-    width: 30%;
+    width: 70%;
     height: 500px;
-    position: relative;
-    left: 210px;
-    top: 170px;
+    margin-top: 100px;
     text-align: left;
 }
 
 .img-item3 {
-    position: relative;
-    left: 130px;
+    margin-left: 220px;
 }
 
 .img-item4 {
     position: relative;
-    left: 330px;
-    top: 145px;
+    bottom: 200px;
     z-index: 3;
 }
 
 .nhanxet3 {
     display: flex;
-    padding-top: 200px;
-    padding-bottom: 100px;
+    justify-content: center;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 200px;
 }
 
 .vanban3 {
-    width: 30%;
+    width: 50%;
     height: 500px;
-    position: relative;
-    left: 400px;
+    margin-top: 100px;
     text-align: right;
-}
-
-.img-item5 {
-    position: relative;
-    left: 450px;
-    bottom: 120px;
 }
 
 .img-item6 {
     position: relative;
-    left: 295px;
-    top: 50px;
+    bottom: 200px;
+    left: 150px;
 }
 /*awards end*/
 
@@ -1924,25 +1918,19 @@ div.stars {
 .Recipes {
     padding-top: 10px;
     padding-bottom: 10px;
-    position: relative;
+    margin-left: 335px;
     left: 350px;
     margin-top: 150px;
 }
 
 .phandau {
     display: flex;
-}
-
-.photo-item1 {
-    position: relative;
-    left: 350px;
+    justify-content: center;
 }
 
 .chuviet {
     width: 21%;
     height: 468px;
-    position: relative;
-    left: 350px;
     text-align: left;
     background: #eee;
     padding-left: 30px;
@@ -1965,7 +1953,9 @@ div.stars {
 .noidung {
     margin-top: 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-left: 335px;
+    margin-right: 335px;
     flex-wrap: wrap;
 }
 
@@ -1974,8 +1964,7 @@ div.stars {
     height: 280px;
     text-align: left;
     background: #eee;
-    position: relative;
-    left: 260px;
+
 }
 
 .noidung-img2 {
@@ -1983,8 +1972,7 @@ div.stars {
     height: 280px;
     text-align: left;
     background: #eee;
-    position: relative;
-    left: 95px;
+
 }
 
 .noidung-img3 {
@@ -1992,8 +1980,7 @@ div.stars {
     height: 280px;
     text-align: left;
     background: #eee;
-    position: relative;
-    right: 70px;
+
 }
 
 .noidung-img4 {
@@ -2001,296 +1988,5 @@ div.stars {
     height: 280px;
     text-align: left;
     background: #eee;
-    position: relative;
-    right: 233px;
-}
 
-.noidung .chucai {
-    padding-top: 15px;
-    font-size: 12px;
-}
-
-.noidung  h6:hover {
-    color: black;
-    text-decoration: underline;
-}
-
-.All-timefavouritedishes {
-    padding-top: 50px;
-    position: relative;
-    left: 350px;
-    font-size: 25px;
-}
-
-.noidung2 {
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.noidung-img5 {
-    width: 296px;
-    height: 280px;
-    text-align: left;
-    background: #eee;
-    position: relative;
-    left: 255px;
-}
-
-.noidung-img6 {
-    width: 296px;
-    height: 280px;
-    text-align: left;
-    background: #eee;
-    position: relative;
-    left: 90px;
-}
-
-.noidung-img7 {
-    width: 296px;
-    height: 280px;
-    text-align: left;
-    background: #eee;
-    position: relative;
-   right: 72px;
-}
-
-.noidung-img8 {
-    width: 296px;
-    height: 280px;
-    text-align: left;
-    background: #eee;
-    position: relative;
-    right: 235px;
-}
-
-.noidung2 .chucai {
-    padding-top: 15px;
-    font-size: 12px;
-}
-
-.noidung2  h6:hover {
-    color: black;
-    text-decoration: underline;
-}
-
-.noidung3 {
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.noidung-img10 {
-    width: 296px;
-    height: 280px;
-    text-align: left;
-    background: #eee;
-    position: relative;
-    left: 255px;
-}
-
-.noidung-img11 {
-    width: 296px;
-    height: 280px;
-    text-align: left;
-    background: #eee;
-    position: relative;
-    left: 90px;
-}
-
-.noidung-img12 {
-    width: 296px;
-    height: 280px;
-    text-align: left;
-    background: #eee;
-    position: relative;
-    right: 72px;
-}
-
-.noidung-img13 {
-    width: 296px;
-    height: 280px;
-    text-align: left;
-    background: #eee;
-    position: relative;
-    right: 235px;
-}
-
-.noidung3 .chucai {
-    padding-top: 15px;
-    font-size: 12px;
-}
-
-.noidung3  h6:hover {
-    color: black;
-    text-decoration: underline;
-}
-
-.Cookingwith\.\.\. {
-    padding-top: 50px;
-    position: relative;
-    left: 350px;
-    font-size: 25px;
-}
-
-.noidung4 {
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.noidung-img14 {
-    width: 296px;
-    height: 280px;
-    text-align: left;
-    background: #eee;
-    position: relative;
-    left: 255px;
-}
-
-.noidung-img15 {
-    width: 296px;
-    height: 280px;
-    text-align: left;
-    background: #eee;
-    position: relative;
-    left: 90px;
-}
-
-.noidung-img16 {
-    width: 296px;
-    height: 280px;
-    text-align: left;
-    background: #eee;
-    position: relative;
-    right: 72px;
-}
-
-.noidung-img17 {
-    width: 296px;
-    height: 280px;
-    text-align: left;
-    background: #eee;
-    position: relative;
-    right: 235px;
-}
-
-.noidung4 .chucai {
-    padding-top: 50px;
-    font-size: 12px;
-}
-
-.noidung4  h6:hover {
-    color: black;
-    text-decoration: underline;
-}
-
-.noidung5 {
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.noidung-img18 {
-    width: 296px;
-    height: 280px;
-    text-align: left;
-    background: #eee;
-    position: relative;
-    left: 255px;
-}
-
-.noidung-img19 {
-    width: 296px;
-    height: 280px;
-    text-align: left;
-    background: #eee;
-    position: relative;
-    left: 90px;
-}
-
-.noidung-img20 {
-    width: 296px;
-    height: 280px;
-    text-align: left;
-    background: #eee;
-    position: relative;
-    right: 72px;
-}
-
-.noidung-img21 {
-    width: 296px;
-    height: 280px;
-    text-align: left;
-    background: #eee;
-    position: relative;
-    right: 235px;
-}
-
-.noidung5 .chucai {
-    padding-top: 50px;
-    font-size: 12px;
-}
-
-.noidung5  h6:hover {
-    color: black;
-    text-decoration: underline;
-}
-
-.noidung6 {
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin-bottom: 50px;
-}
-
-.noidung-img22 {
-    width: 296px;
-    height: 280px;
-    text-align: left;
-    background: #eee;
-    position: relative;
-    left: 255px;
-}
-
-.noidung-img23 {
-    width: 296px;
-    height: 280px;
-    text-align: left;
-    background: #eee;
-    position: relative;
-    left: 90px;
-}
-
-.noidung-img24 {
-    width: 296px;
-    height: 280px;
-    text-align: left;
-    background: #eee;
-    position: relative;
-    right: 72px;
-}
-
-.noidung-img25 {
-    width: 296px;
-    height: 280px;
-    text-align: left;
-    background: #eee;
-    position: relative;
-    right: 235px;
-}
-
-.noidung6 .chucai {
-    padding-top: 50px;
-    font-size: 12px;
-}
-
-.noidung6  h6:hover {
-    color: black;
-    text-decoration: underline;
 }
