@@ -1817,99 +1817,81 @@ div.stars {
 /* Catering End */
 
 /*awards begin*/
-.nhanxet{
+#awards {
+    margin: 100px 100px;
+}
+
+
+.nhanxet {
+    margin-top: 150px;
     display: flex;
     justify-content: center;
-    padding-top: 100px;
-    margin-left: 250px;
-    margin-right: 250px;
-    margin-top: 100px;
 }
 
-.nhanxet h2{
-    font-size: 50px;
+.img {
+    position: relative;
+    width: 540px;
+    height: 600px;
 }
 
-.nhanxet p {
-    font-size: 20px;
-    color: black;
+.img .img-item1 {
+    width: 320px;
+    height: 500px;
+}
+
+.img .img-item2 {
+    height: 300px;
+    position: absolute;
+    bottom: -50px;
+    left: 150px;
 }
 
 .vanban {
-    width: 50%;
-    height: 500px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 30px;
     text-align: right;
+    margin-right: 80px;
 }
 
-.xemthem {
-    padding-top: 10px;
-    padding-right: 24px;
-    padding-bottom: 10px;
-    padding-left: 24px;
-    font-size: 17px;
-    text-transform: uppercase;
-    color: white;
-    background: #ebcc6a;
-    border: none;
-    outline: none;
-}
-
-.img{
-    margin-left: 80px;
-}
-
-.img-item2{
-    position: relative;
-    bottom: 210px;
-    left: 200px;
+.nhanxet p {
+    width: 500px;
 }
 
 .nhanxet2 {
+    margin-top: 150px;
     display: flex;
     justify-content: center;
-    margin-left: 150px;
-    margin-right: 300px;
-   margin-top: 30px;
 }
 
-.vanban2 {
-    width: 70%;
+.img .img-item3 {
+    width: 350px;
     height: 500px;
-    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.img .img-item4 {
+    height: 300px;
+    position: absolute;
+    bottom: -10px;
+    right: 250px;
+}
+
+.nhanxet2 .vanban {
     text-align: left;
+
 }
 
-.img-item3 {
-    margin-left: 220px;
+.nhanxet2 p {
+    width: 500px;
 }
 
-.img-item4 {
-    position: relative;
-    bottom: 200px;
-    z-index: 3;
-}
-
-.nhanxet3 {
-    display: flex;
-    justify-content: center;
-    margin-left: 250px;
-    margin-right: 250px;
-    margin-bottom: 200px;
-}
-
-.vanban3 {
-    width: 50%;
+.img .img-item5 {
+    width: 320px;
     height: 500px;
-    margin-top: 100px;
-    text-align: right;
 }
 
-.img-item6 {
-    position: relative;
-    bottom: 200px;
+.img .img-item6 {
+    height: 300px;
+    position: absolute;
+    bottom: -50px;
     left: 150px;
 }
 /*awards end*/
