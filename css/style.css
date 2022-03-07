@@ -1843,10 +1843,16 @@ div.stars {
 }
 
 .xemthem {
-    font-size: 20px;
+    padding-top: 10px;
+    padding-right: 24px;
+    padding-bottom: 10px;
+    padding-left: 24px;
+    font-size: 17px;
     text-transform: uppercase;
-    color: black;
+    color: white;
     background: #ebcc6a;
+    border: none;
+    outline: none;
 }
 
 .img-item1{
