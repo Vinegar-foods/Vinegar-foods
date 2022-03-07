@@ -1472,7 +1472,7 @@ body {
 /* Feedback Begin  */
 
 .rate{
-    background-image: url(../img/bg\ fb1.jpg);
+    background-image: url(../img/backgound-feedback.jpg);
     background-size: cover;
     border-bottom: 3px solid rgb(66, 41, 41);
     margin-top: 123px;
@@ -1491,7 +1491,7 @@ body {
 
 .rate-1 > h1{
     font-size: 3cm;
-    color: #ebcc6a;
+    color: #f8c727;
 }
 
 .column-rate1{
@@ -1528,11 +1528,10 @@ body {
 }
 
 .rating{
-    height: 350px;
+    height: 550px;
     width: auto;
     border-top: 3px solid rgb(66, 41, 41) ;
-    background-image:  linear-gradient(0,rgba(0,0,0,0.8),rgba(0,0,0,0.9))
-    ,url(../img/background\ comment.jpg);
+    /* background-image:  linear-gradient(0,rgba(0,0,0,0.5),rgba(0,0,0,0.8)); */
     background-size: cover;
 }
 
@@ -1540,7 +1539,7 @@ div.stars {
     
     width: 300px;
     display: inline-block;
-    margin: 55px 200px 10px 200px;
+    margin: 0px 0px 10px 100px;
   }
    
   input.star { display: none; }
@@ -1590,20 +1589,14 @@ div.stars {
       margin-left: 100px;
   }
 
-#rating-comment{
-    width: 900px;
-    height: 50px;
-    margin: 70px 30px 35px 205px; 
-    text-align: center;
-    padding: 10px 0px 10px 0px;
-    border: #ac964d solid 6px;
-    font-size: 0.7cm;
-}
-
 .sm{
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
     float: right;
-    margin-right: 100px;
+    margin-right: 450px;
     margin-top: 0px;
+    background-color: rgb(241, 186, 65);
+
 }
 
 .account{
@@ -1663,6 +1656,42 @@ div.stars {
     width: 100%;
     margin: 20px 500px 20px 600px;
 }
+
+.comment-input-rate input , .comment-form-rate textarea {
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #aaaaaa;
+}
+.comment-input-rate input {
+    width: 200px;
+    height: 46px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+.comment-form-rate textarea {
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-bottom: 35px;
+}
+
+.re-comment{
+    margin: 30px 0px 30px 400px;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+.add-1{
+    display: inline;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 15px;
+    
+}
+
+.column-rep {
+    display: inline-flex;
+}
 /* Feedback End  */
 
 /* Catering Begin */
@@ -1708,7 +1737,7 @@ div.stars {
     float: left;
     padding: 20px 10px 20px 30px;
     margin: 0px 100px 30px 100px;
-    border: 3px solid #000;
+    border: 3px solid #ebebeb;
     overflow: auto;
 }
 
