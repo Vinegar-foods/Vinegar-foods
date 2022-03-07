@@ -172,34 +172,57 @@
     <div class="rating">
         <div class="rating-rowh">
             <h1 class="rating-row1">Restaurant Rating</h1>
-            <div class="stars">
-                <form action="">
-                  <input class="star star-5" id="star-5" type="radio" name="star"/>
-                  <label class="star star-5" for="star-5"></label>
-                  <input class="star star-4" id="star-4" type="radio" name="star"/>
-                  <label class="star star-4" for="star-4"></label>
-                  <input class="star star-3" id="star-3" type="radio" name="star"/>
-                  <label class="star star-3" for="star-3"></label>
-                  <input class="star star-2" id="star-2" type="radio" name="star"/>
-                  <label class="star star-2" for="star-2"></label>
-                  <input class="star star-1" id="star-1" type="radio" name="star"/>
-                  <label class="star star-1" for="star-1"></label>
-                </form>
-            </div>
+            
         </div>
             
         <div class="rating-rowf">
-            <form class="re-comment">
-                <input type="text" id="rating-comment" placeholder="Comment" >
-                <input class="add" type="image" src="img/icons8-add-image-48.png" height="50px" value="">
-                <input class="add" type="image" src="img/icons8-slightly-smiling-face-48.png" height="50px" value="">                
-            </form>             
+            <div class="re-comment">
+                <!-- <input type="text" id="rating-comment" placeholder="Comment" > -->
+                <form action="#" class="comment-form-rate">
+                    <div class="comment-input-rate">
+                        <label for="name-contact">
+                            <input id="name-contact" type="text" placeholder="Your Name">
+                        </label>
+                        <label for="email-contact">
+                            <input id="email-contact" type="email" placeholder="Your Email">
+                        </label>
+                    </div>
+                    <div class="rep">
+                        <div class="column-rep r">
+                            <label for="message-contact">
+                                <textarea name="message" id="message-contact" cols="70" rows="6" placeholder="Your Message"></textarea>
+                            </label>
+                        </div>
+                        <div class="column-rep ">
+                            <div class="add">
+                                <input class="add-1" type="image" src="img/icons8-add-image-90.png" height="50px" value="">
+                                <input class="add-1" type="image" src="img/icons8-neutral-96.png" height="50px" value="">
+                            </div>
+                            <div class="stars">
+                                <form action="">
+                                  <input class="star star-5" id="star-5" type="radio" name="star"/>
+                                  <label class="star star-5" for="star-5"></label>
+                                  <input class="star star-4" id="star-4" type="radio" name="star"/>
+                                  <label class="star star-4" for="star-4"></label>
+                                  <input class="star star-3" id="star-3" type="radio" name="star"/>
+                                  <label class="star star-3" for="star-3"></label>
+                                  <input class="star star-2" id="star-2" type="radio" name="star"/>
+                                  <label class="star star-2" for="star-2"></label>
+                                  <input class="star star-1" id="star-1" type="radio" name="star"/>
+                                  <label class="star star-1" for="star-1"></label>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <div class="submit">
+                    <button class="sm">Send Comment</button>       
+                </div>
+                           
+            </div>             
         </div>
 
-        <div class="submit">
-            <button class="sm"><img src="img/icons8-paper-plane-64.png" /></button>
-
-        </div>
+        
     </div>
 
     <!-- Assess End  -->
