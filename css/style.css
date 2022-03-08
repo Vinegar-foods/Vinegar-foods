@@ -1958,53 +1958,29 @@ div.stars {
 }
 
 .cauket {
-    padding-top: 30%;
+    padding-top: 100px;
 }
 
 .noidung {
-    margin-top: 20px;
     display: flex;
-    justify-content: space-between;
-    margin-left: 335px;
-    margin-right: 335px;
-    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.noidung-img1 {
+.noidung-item {
     width: 296px;
     height: 280px;
     text-align: left;
     background: #eee;
-
+    margin: 10px 8px;
 }
 
-.noidung-img2 {
+.noidung-item img {
     width: 296px;
-    height: 280px;
-    text-align: left;
-    background: #eee;
-
+    object-fit: cover;
 }
 
-.noidung-img3 {
-    width: 296px;
-    height: 280px;
-    text-align: left;
-    background: #eee;
-
-}
-
-.noidung-img4 {
-    width: 296px;
-    height: 280px;
-    text-align: left;
-    background: #eee;
-
-}
-
-.noidung .chucai {
-    padding-top: 15px;
-    font-size: 12px;
+.noidung-text {
+    margin: 10px 10px;
 }
 
 .noidung  h6:hover {
@@ -2012,252 +1988,13 @@ div.stars {
     text-decoration: underline;
 }
 
-.All-timefavouritedishes {
+.text {
     padding-top: 50px;
     margin-left: 335px;
     left: 350px;
     font-size: 25px;
 }
 
-.noidung2 {
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-between;
-    margin-left: 335px;
-    margin-right: 335px;
-    flex-wrap: wrap;
-}
-
-.noidung-img5 {
-    width: 296px;
-    height: 280px;
-    text-align: left;
-    background: #eee;
-}
-
-.noidung-img6 {
-    width: 296px;
-    height: 280px;
-    text-align: left;
-    background: #eee;
-}
-
-.noidung-img7 {
-    width: 296px;
-    height: 280px;
-    text-align: left;
-    background: #eee;
-}
-
-.noidung-img8 {
-    width: 296px;
-    height: 280px;
-    text-align: left;
-    background: #eee;
-}
-
-.noidung2 .chucai {
-    padding-top: 15px;
-    font-size: 12px;
-}
-
-.noidung2  h6:hover {
-    color: black;
-    text-decoration: underline;
-}
-
-.noidung3 {
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-between;
-    margin-left: 335px;
-    margin-right: 335px;
-    flex-wrap: wrap;
-}
-
-.noidung-img10 {
-    width: 296px;
-    height: 280px;
-    text-align: left;
-    background: #eee;
-}
-
-.noidung-img11 {
-    width: 296px;
-    height: 280px;
-    text-align: left;
-    background: #eee;
-}
-
-.noidung-img12 {
-    width: 296px;
-    height: 280px;
-    text-align: left;
-    background: #eee;
-}
-
-.noidung-img13 {
-    width: 296px;
-    height: 280px;
-    text-align: left;
-    background: #eee;
-}
-
-.noidung3 .chucai {
-    padding-top: 15px;
-    font-size: 12px;
-}
-
-.noidung3  h6:hover {
-    color: black;
-    text-decoration: underline;
-}
-
-.Cookingwith\.\.\. {
-    padding-top: 50px;
-    margin-left: 335px;
-    left: 350px;
-    font-size: 25px;
-}
-
-.noidung4 {
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-between;
-    margin-left: 335px;
-    margin-right: 335px;
-    flex-wrap: wrap;
-}
-
-.noidung-img14 {
-    width: 296px;
-    height: 280px;
-    text-align: left;
-    background: #eee;
-}
-
-.noidung-img15 {
-    width: 296px;
-    height: 280px;
-    text-align: left;
-    background: #eee;
-}
-
-.noidung-img16 {
-    width: 296px;
-    height: 280px;
-    text-align: left;
-    background: #eee;
-}
-
-.noidung-img17 {
-    width: 296px;
-    height: 280px;
-    text-align: left;
-    background: #eee;
-}
-
-.noidung4 .chucai {
-    padding-top: 50px;
-    font-size: 12px;
-}
-
-.noidung4  h6:hover {
-    color: black;
-    text-decoration: underline;
-}
-
-.noidung5 {
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-between;
-    margin-left: 335px;
-    margin-right: 335px;
-    flex-wrap: wrap;
-}
-
-.noidung-img18 {
-    width: 296px;
-    height: 280px;
-    text-align: left;
-    background: #eee;
-}
-
-.noidung-img19 {
-    width: 296px;
-    height: 280px;
-    text-align: left;
-    background: #eee;
-}
-
-.noidung-img20 {
-    width: 296px;
-    height: 280px;
-    text-align: left;
-    background: #eee;
-}
-
-.noidung-img21 {
-    width: 296px;
-    height: 280px;
-    text-align: left;
-    background: #eee;
-}
-
-.noidung5 .chucai {
-    padding-top: 50px;
-    font-size: 12px;
-}
-
-.noidung5  h6:hover {
-    color: black;
-    text-decoration: underline;
-}
-
-.noidung6 {
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-between;
-    margin-left: 335px;
-    margin-right: 335px;
-    flex-wrap: wrap;
-    margin-bottom: 50px;
-}
-
-.noidung-img22 {
-    width: 296px;
-    height: 280px;
-    text-align: left;
-    background: #eee;
-}
-
-.noidung-img23 {
-    width: 296px;
-    height: 280px;
-    text-align: left;
-    background: #eee;
-}
-
-.noidung-img24 {
-    width: 296px;
-    height: 280px;
-    text-align: left;
-    background: #eee;
-}
-
-.noidung-img25 {
-    width: 296px;
-    height: 280px;
-    text-align: left;
-    background: #eee;
-}
-
-.noidung6 .chucai {
-    padding-top: 50px;
-    font-size: 12px;
-}
-
-.noidung6  h6:hover {
-    color: black;
-    text-decoration: underline;
+.noidung .chucai2 {
+    margin-top: 45px;
 }
