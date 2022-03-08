@@ -318,10 +318,14 @@ body {
     ,url("../img/back-booking-index.jpg");
     background-size: cover;
 }
+#booking-form {
+    border: #aaaaaa solid 2px;
+}
 #booking-form img {
     width: 585px;
     height: 230px;
     object-fit: cover;
+    border: 2px solid #eeecec;
     border-bottom: transparent;
 }
 #booking-form form {
@@ -331,6 +335,7 @@ body {
     background-color: #2a2a2a;
     display: flex;
     flex-direction: column;
+    border: 2px solid #eeecec;
 }
 #booking-form form div {
     padding-top: 30px;
@@ -338,6 +343,7 @@ body {
 .booking-index-box input {
     padding: 7px 20px;
     outline: none;
+    border: #636363 solid 2px;
 }
 .booking-index-name label {
     display: flex;
@@ -382,12 +388,6 @@ body {
 }
 #booking-title p {
     color: #dad7d7;
-}
-#book-time {
-    width: 241.6px;
-    padding: 9.2px 20px;
-    margin-left: 10px;
-    outline: none;
 }
 /* Booking End  */
 
@@ -671,7 +671,7 @@ body {
 .comment-box button {
     padding: 12px 35px;
     color: white;
-    background-color: #ebcc6a;
+    background-color: #ecae54;
     outline: none;
     border: none;
 }
@@ -1001,10 +1001,8 @@ body {
     width: 100%;
     height: 500px;
     position: relative;
-}
-.about-title-img {
     background-image: linear-gradient(0deg,rgba(42,42,42,0.5),rgba(42,42,42,0.5))
-    ,url("../img/about-us-back-tiltle.jpg");
+                ,url("../img/about-us-back-tiltle.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -1530,14 +1528,18 @@ body {
 }
 
 .rating{
-    margin: 50px 100px;
-    position: relative;
-    left: -250px;
+    height: 550px;
+    width: auto;
+    border-top: 3px solid rgb(66, 41, 41) ;
+    /* background-image:  linear-gradient(0,rgba(0,0,0,0.5),rgba(0,0,0,0.8)); */
+    background-size: cover;
 }
 
 div.stars {
+    
+    width: 300px;
     display: inline-block;
-    margin-left: 30px;
+    margin: 0px 0px 10px 100px;
   }
    
   input.star { display: none; }
@@ -1571,15 +1573,16 @@ div.stars {
   }
 
 .rating-rowh{
-
+    height: 100px;
+    display: inline-flex;
   }
 
 .rating-row1{
-      font-size: 40px;
+      height: 70px;
+      margin-left: 200px;
+      margin-top: 30px;
+      font-size: 1.6cm;
       color: #ebcc6a;
-      text-transform: uppercase;
-    padding-left: 400px;
-    padding-top: 20px;
   }
 
 .vote{
@@ -1587,12 +1590,13 @@ div.stars {
   }
 
 .sm{
-    padding: 10px 20px;
-    border: none;
-    color: white;
-    text-transform: uppercase;
-    outline: none;
-    background-color: #ebcc6a;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    margin-right: 450px;
+    margin-top: 0px;
+    background-color: rgb(241, 186, 65);
+
 }
 
 .account{
@@ -1631,21 +1635,16 @@ div.stars {
     margin-left: 150px;
     font-weight: 200;
 }
-#comment-box {
-    margin: 0 120px;
-}
+
 .comment{
     margin-top: 50px;
     display: inline-flex;
-}
-.show-more-comment {
-    margin-top: 50px;
 }
 .show-more-comment a {
     font-weight: 500;
     text-transform: uppercase;
     text-align: center;
-    color: #636363;
+    color: black;
     text-decoration: none;
 }
 .show-more-comment a:hover {
@@ -1664,7 +1663,7 @@ div.stars {
     border: 1px solid #aaaaaa;
 }
 .comment-input-rate input {
-    width: 300px;
+    width: 200px;
     height: 46px;
     padding-left: 20px;
     margin-bottom: 30px;
@@ -1672,6 +1671,7 @@ div.stars {
 .comment-form-rate textarea {
     padding-left: 20px;
     padding-top: 10px;
+    margin-bottom: 35px;
 }
 
 .re-comment{
@@ -1690,25 +1690,12 @@ div.stars {
 }
 
 .column-rep {
-    display: flex;
-    align-items: center;
-}
-.add button {
-    background-color: white;
-    border: none;
-    outline: none;
-    font-size: 30px;
+    display: inline-flex;
 }
 /* Feedback End  */
 
 /* Catering Begin */
-#Catering-Begin {
-    margin-top: 123px;
-    background-image: linear-gradient(0deg,rgba(42,42,42,0.5),rgba(42,42,42,0.5))
-    ,url("../img/back-catering-top.jpg");
-    background-size: cover;
-    background-position: center;
-}
+
 .slogan-catering{
     height: 300px;
     margin-top: 123px;
@@ -1859,51 +1846,10 @@ div.stars {
 /* Catering End */
 
 /*awards begin*/
-#award-google {
-    margin-top: 213px;
-}
-#award-google-title {
-    text-align: center;
-}
-#award-google-title h2 {
-    color: #ebcc6a;
-    font-weight: 400;
-    font-size: 32px;
-}
-#award-google-title p {
-    font-size: 24px;
-}
-
-#award-google-button button {
-    padding: 10px 20px;
-    background-color: white;
-    outline: none;
-    color: #ebcc6a;
-    border: 3px #ebcc6a solid;
-    border-radius: 3px;
-    font-weight: bold;
-    transition: all 325ms ease;
-}
-#award-google-button button:hover {
-    background-color: #ebcc6a;
-    color: white;
-}
-#award-google-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-}
-#award-google-img img {
-    margin: 0 50px;
-}
 #awards {
     margin: 100px 100px;
 }
 
-.award-h2 {
-    margin-top: 100px;
-}
 
 .nhanxet {
     margin-top: 150px;
@@ -1983,9 +1929,10 @@ div.stars {
 /*awards end*/
 
 /*recipe begin*/
-
 .Tong {
-    margin: 173px 100px 100px 150px;
+    margin-left: 335px;
+    margin-right: 335px;
+    margin-top: 150px;
 }
 .Recipes {
     padding-bottom: 10px;
@@ -2022,7 +1969,7 @@ div.stars {
 
 .noidung {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .noidung-item {
@@ -2030,11 +1977,9 @@ div.stars {
     height: 280px;
     text-align: left;
     background: #eee;
-    margin-top: 20px;
+    margin: 10px 8px;
 }
-.title-award-child {
-    padding-top: 50px;
-}
+
 .noidung-item img {
     width: 296px;
     object-fit: cover;
