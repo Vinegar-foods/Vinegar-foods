@@ -318,14 +318,10 @@ body {
     ,url("../img/back-booking-index.jpg");
     background-size: cover;
 }
-#booking-form {
-    border: #aaaaaa solid 2px;
-}
 #booking-form img {
     width: 585px;
     height: 230px;
     object-fit: cover;
-    border: 2px solid #eeecec;
     border-bottom: transparent;
 }
 #booking-form form {
@@ -335,7 +331,6 @@ body {
     background-color: #2a2a2a;
     display: flex;
     flex-direction: column;
-    border: 2px solid #eeecec;
 }
 #booking-form form div {
     padding-top: 30px;
@@ -343,7 +338,6 @@ body {
 .booking-index-box input {
     padding: 7px 20px;
     outline: none;
-    border: #636363 solid 2px;
 }
 .booking-index-name label {
     display: flex;
@@ -388,6 +382,12 @@ body {
 }
 #booking-title p {
     color: #dad7d7;
+}
+#book-time {
+    width: 241.6px;
+    padding: 9.2px 20px;
+    margin-left: 10px;
+    outline: none;
 }
 /* Booking End  */
 
@@ -671,7 +671,7 @@ body {
 .comment-box button {
     padding: 12px 35px;
     color: white;
-    background-color: #ecae54;
+    background-color: #ebcc6a;
     outline: none;
     border: none;
 }
@@ -1001,8 +1001,10 @@ body {
     width: 100%;
     height: 500px;
     position: relative;
+}
+.about-title-img {
     background-image: linear-gradient(0deg,rgba(42,42,42,0.5),rgba(42,42,42,0.5))
-                ,url("../img/about-us-back-tiltle.jpg");
+    ,url("../img/about-us-back-tiltle.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -1468,3 +1470,599 @@ body {
     border: none;
 }
 /*Reservation End*/
+
+/* Feedback Begin  */
+
+.rate{
+    background-image: url(../img/backgound-feedback.jpg);
+    background-size: cover;
+    border-bottom: 3px solid rgb(66, 41, 41);
+    margin-top: 123px;
+}
+
+.rate-1{
+    height: 250px;
+    display: inline-flex;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.rate-1 > img{
+    margin: 20px 300px 20px 100px;
+}
+
+.rate-1 > h1{
+    font-size: 3cm;
+    color: #f8c727;
+}
+
+.column-rate1{
+    height: 200px;
+    width: 900px;
+}
+
+.rate-2{
+    height: 350px;
+    display: inline-flex;
+
+}
+
+.rate-2 > p{
+
+    font-size: 4cm;
+
+}
+
+.rate-column{
+    margin-left: 150px;
+    text-align: center;
+}
+
+.rate-table{
+    margin-top: 30px;
+    font-size: 1cm;
+    height: 200px;
+    width: 500px;
+}
+
+.column-rate2{
+    font-size: 1.2cm;
+}
+
+.rating{
+    margin: 50px 100px;
+    position: relative;
+    left: -250px;
+}
+
+div.stars {
+    display: inline-block;
+    margin-left: 30px;
+  }
+   
+  input.star { display: none; }
+   
+  label.star {
+    float: right;
+    padding: 10px;
+    font-size: 36px;
+    color: #ebcc6a;
+    transition: all .2s;
+  }
+   
+  input.star:checked ~ label.star:before {
+    content: '\f005';
+    color: #FD4;
+    transition: all .25s;
+  }
+   
+  input.star-5:checked ~ label.star:before {
+    color: #FE7;
+    text-shadow: 0 0 20px #952;
+  }
+   
+  input.star-1:checked ~ label.star:before { color: #F62; }
+   
+  label.star:hover { transform: rotate(-15deg) scale(1.3); }
+   
+  label.star:before {
+    content: '\f006';
+    font-family: FontAwesome;
+  }
+
+.rating-rowh{
+
+  }
+
+.rating-row1{
+      font-size: 40px;
+      color: #ebcc6a;
+      text-transform: uppercase;
+    padding-left: 400px;
+    padding-top: 20px;
+  }
+
+.vote{
+      margin-left: 100px;
+  }
+
+.sm{
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    outline: none;
+    background-color: #ebcc6a;
+}
+
+.account{
+    width: 60%;
+    height: 100px;
+    background-color: #543434;
+    position: relative;
+    color: white;
+}
+.account h2 {
+    font-size: 15px;
+    padding-top: 30px;
+}
+.account p {
+    font-size: 20px;
+}
+.account h2 , .account p {
+    margin-left: 220px;
+}
+.account img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    z-index: 6;
+    position: absolute;
+    top: 20px;
+    left: 120px;
+    border: 2px solid #000;
+    background-color: white;
+}
+.commenttext {
+    padding: 30px 0;
+}
+.commenttext p {
+    width: 700px;
+    margin-left: 150px;
+    font-weight: 200;
+}
+#comment-box {
+    margin: 0 120px;
+}
+.comment{
+    margin-top: 50px;
+    display: inline-flex;
+}
+.show-more-comment {
+    margin-top: 50px;
+}
+.show-more-comment a {
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    color: #636363;
+    text-decoration: none;
+}
+.show-more-comment a:hover {
+    color: #2c3034;
+    text-decoration: underline;
+}
+
+.comment-more{
+    width: 100%;
+    margin: 20px 500px 20px 600px;
+}
+
+.comment-input-rate input , .comment-form-rate textarea {
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #aaaaaa;
+}
+.comment-input-rate input {
+    width: 300px;
+    height: 46px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+.comment-form-rate textarea {
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.re-comment{
+    margin: 30px 0px 30px 400px;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+.add-1{
+    display: inline;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 15px;
+    
+}
+
+.column-rep {
+    display: flex;
+    align-items: center;
+}
+.add button {
+    background-color: white;
+    border: none;
+    outline: none;
+    font-size: 30px;
+}
+/* Feedback End  */
+
+/* Catering Begin */
+#Catering-Begin {
+    margin-top: 123px;
+    background-image: linear-gradient(0deg,rgba(42,42,42,0.5),rgba(42,42,42,0.5))
+    ,url("../img/back-catering-top.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.slogan-catering{
+    height: 300px;
+    margin-top: 123px;
+    text-align: center;
+    background-image: linear-gradient(0,rgba(0,0,0,0.8),rgba(0,0,0,0.9)),url(../img/slogancatering.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.slogan-catering > h1{
+    height: 200px;
+    font-size: 2cm;
+    padding-top: 50px;
+}
+
+.slogan-catering > p{
+    font-size: 50px;
+}
+
+.head-review{
+    height: 100px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.body-review{
+    display: inline-flex;
+}
+.column-body-left{
+    height: 1000px;
+    width: 600px;
+    
+    border-right: 3px double #000;
+}
+
+.list{
+    height: 500px;
+    width: 350px;
+    float: left;
+    padding: 20px 10px 20px 30px;
+    margin: 0px 100px 30px 100px;
+    border: 3px solid #ebebeb;
+    overflow: auto;
+}
+
+.search-list{
+    margin: 0px 100px 30px 100px;
+    width: 350px;
+    text-align: center;
+}
+
+.img-list{
+    margin: 70px 100px 30px 100px;    
+}
+
+
+.body-review{
+    height: 1000px;
+    border-bottom: 1px solid #000;
+    
+    margin-bottom: 30px;
+}
+
+
+
+.hotline{
+    height: 300px;
+    width: 450px;
+    text-align: center;
+    font-size: 0.6cm;
+    float: left;
+}
+
+.hotline > h3{
+    font-size: 2cm;
+}
+
+.hotline > p{
+    margin-top: 20px;
+}
+
+.sale{
+    height: 300px;
+    width: 450px;
+    text-align: center;
+    font-size: 0.6cm;
+    float: right;
+}
+
+.sale > h3{
+    font-size: 2cm;
+}
+
+.sale > p{
+    margin-top: 20px;
+}
+
+.contact-ratering{
+    height: 420px;
+    display: inline-flex;
+    margin: 30px 0px 30px 0px;
+}
+
+.sale > button{
+    padding: 10px 24px;
+    background-color: #ebcc6a;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.sale button a {
+    text-decoration: none;
+    color: white;
+}
+
+.cate{
+    margin: 30px 20px 10px 30px;
+    display: inline-flex;
+    
+}
+
+.cate button{
+    height: 45px;
+    padding: 10px 24px;
+    background-color: #ebcc6a;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    margin-top:100px;
+    margin-left: 140px;
+}
+
+.cate button a {
+    text-decoration: none;
+    color: white;
+}
+
+.column-body-right{
+    overflow: auto;
+}
+
+.cate p{
+    font-size: 0.8cm;
+    margin-left: 20px;
+}
+/* Catering End */
+
+/*awards begin*/
+#award-google {
+    margin-top: 213px;
+}
+#award-google-title {
+    text-align: center;
+}
+#award-google-title h2 {
+    color: #ebcc6a;
+    font-weight: 400;
+    font-size: 32px;
+}
+#award-google-title p {
+    font-size: 24px;
+}
+
+#award-google-button button {
+    padding: 10px 20px;
+    background-color: white;
+    outline: none;
+    color: #ebcc6a;
+    border: 3px #ebcc6a solid;
+    border-radius: 3px;
+    font-weight: bold;
+    transition: all 325ms ease;
+}
+#award-google-button button:hover {
+    background-color: #ebcc6a;
+    color: white;
+}
+#award-google-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+#award-google-img img {
+    margin: 0 50px;
+}
+#awards {
+    margin: 100px 100px;
+}
+
+.award-h2 {
+    margin-top: 100px;
+}
+
+.nhanxet {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+    position: relative;
+    width: 540px;
+    height: 600px;
+}
+
+.img .img-item1 {
+    width: 320px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.img .img-item2 {
+    height: 300px;
+    position: absolute;
+    bottom: -50px;
+    left: 150px;
+}
+
+.vanban {
+    text-align: right;
+    margin-right: 80px;
+}
+
+.nhanxet p {
+    width: 500px;
+}
+
+.nhanxet2 {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.img .img-item3 {
+    width: 350px;
+    height: 500px;
+    margin-left: 100px;
+    object-fit: cover;
+}
+
+.img .img-item4 {
+    height: 300px;
+    position: absolute;
+    bottom: -10px;
+    right: 250px;
+}
+
+.nhanxet2 .vanban {
+    text-align: left;
+
+}
+
+.nhanxet2 p {
+    width: 500px;
+}
+
+.img .img-item5 {
+    width: 320px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.img .img-item6 {
+    height: 300px;
+    position: absolute;
+    bottom: -50px;
+    left: 150px;
+}
+/*awards end*/
+
+/*recipe begin*/
+
+.Tong {
+    margin: 173px 100px 100px 150px;
+}
+.Recipes {
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.phandau {
+    display: flex;
+    justify-content: center;
+
+}
+
+.chuviet {
+    width: 100%;
+    height: 468px;
+    text-align: left;
+    background: #eee;
+    padding-left: 30px;
+    flex-wrap: wrap;
+}
+
+.chuviet ul p:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.vanban-chude {
+    width: 100%;
+}
+
+.cauket {
+    padding-top: 100px;
+}
+
+.noidung {
+    display: flex;
+    justify-content: space-between;
+}
+
+.noidung-item {
+    width: 296px;
+    height: 280px;
+    text-align: left;
+    background: #eee;
+    margin-top: 20px;
+}
+.title-award-child {
+    padding-top: 50px;
+}
+.noidung-item img {
+    width: 296px;
+    object-fit: cover;
+}
+
+.noidung-text {
+    margin: 10px 10px;
+}
+
+.noidung  h6:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.noidung h6 {
+    font-size: 18px;
+}
+.text {
+    left: 350px;
+    font-size: 25px;
+    width: 100%;
+}
+
+.chucai {
+    font-size: 13px;
+}
+
+.noidung .chucai2 {
+    margin-top: 45px;
+    font-size: 13px;
+}
