@@ -680,11 +680,12 @@ body {
 
 /*Blog Begin*/
 #blog {
-    width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     padding-top: 80px;
     margin-top: 123px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .col-list > div {
     margin-bottom: 55px;
@@ -755,6 +756,7 @@ body {
 }
 .col-post {
     display: flex;
+    margin-left: 50px;
 }
 .col-post-item {
     padding: 0 15px;
@@ -1652,7 +1654,10 @@ div.stars {
     color: #2c3034;
     text-decoration: underline;
 }
-
+.rate {
+    margin-right: 20px;
+    margin-left: 20px;
+}
 .comment-more{
     width: 100%;
     margin: 20px 500px 20px 600px;
