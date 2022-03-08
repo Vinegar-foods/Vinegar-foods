@@ -1866,6 +1866,7 @@ div.stars {
 .img .img-item1 {
     width: 320px;
     height: 500px;
+    object-fit: cover;
 }
 
 .img .img-item2 {
@@ -1894,6 +1895,7 @@ div.stars {
     width: 350px;
     height: 500px;
     margin-left: 100px;
+    object-fit: cover;
 }
 
 .img .img-item4 {
@@ -1915,6 +1917,7 @@ div.stars {
 .img .img-item5 {
     width: 320px;
     height: 500px;
+    object-fit: cover;
 }
 
 .img .img-item6 {
